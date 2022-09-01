@@ -1,6 +1,18 @@
-/* #section-headline{
-    background: url("./assets/images/headline-background.jpg") no-repeat  fixed;
-} */
-.section img{
-    width: 20vw; height: 35vh
+#section-headline{
+    align-content: center;
+    height: 35vh;
+    width: 100%;
+    background: url("./assets/images/headline-background.jpg") no-repeat;
 }
+/* .section img{
+    width: 20vw; height: 35vh
+} */
+/* 
+.section img{
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .d-flex{
+    display: flex;
+} */
