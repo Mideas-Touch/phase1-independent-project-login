@@ -12,6 +12,7 @@
 
 #section-headline li{
     position: relative;
+    list-style: none;
     top:3vh;
 }
 
@@ -31,10 +32,14 @@
 }
 
 #section-2{
-    position: relative;
-    top: 15vh;
+    position: absolute;
+    top: 35vh;
 }
 
+#section-3{
+    position: relative;
+    top: 25vh;
+}
     
 
 .navbar{
@@ -54,13 +59,21 @@
     width: 100%;
     background: url("./assets/images/headline-background.jpg") repeat;
 }
+
+#section-headline h2{
+    position:absolute;
+    top: 3.5em;
+    left: 20rem;
+    text-align: center;
+
+}
 .card{
     position: relative;
     max-width: 15%;
     max-height: 5%;
 }
 .card p{
-    text-align: center;
+    text-align: left;
     flex-wrap: wrap;
 
 }
@@ -72,8 +85,11 @@
 }
 
 .container{
+    position: inherit;
+    left: 25vw;
     width: 90%;
-    margin: auto
+    margin: auto;
+    border: 5px limegreen;
 }
 
 
@@ -87,6 +103,8 @@
 .justify-content-space-between{justify-content: space-between;}
 .justify-content-space-around{justify-content: space-around;}
 .justify-content-center{justify-content: center};
+.justify-content-flex-start{justify-content: flex-start;}
+.justify-content-flex-end{justify-content: flex-end;}
 
 
 
