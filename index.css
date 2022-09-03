@@ -1,8 +1,32 @@
+:root{
+    font-size: 0.8vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 #section-headline{
     align-content: center;
     height: 35vh;
     width: 100%;
     background: url("./assets/images/headline-background.jpg") no-repeat;
+}
+
+.card img{
+    max-width: 400px;
+    height: 350px;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto
 }
 /* .section img{
     width: 20vw; height: 35vh
