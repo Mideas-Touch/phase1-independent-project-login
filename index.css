@@ -17,6 +17,10 @@
     width: 100%;
     background: url("./assets/images/headline-background.jpg") no-repeat;
 }
+.card{
+    max-width: 20%;
+    max-height: 5%;
+}
 
 .card img{
     max-width: 400px;
@@ -28,15 +32,17 @@
     width: 90%;
     margin: auto
 }
-/* .section img{
-    width: 20vw; height: 35vh
-} */
-/* 
-.section img{
-    display: flex;
-    flex-direction: row;
-} */
 
-/* .d-flex{
-    display: flex;
-} */
+
+/*  DISPLAY PROPERTIES*/
+
+.d-flex{display: flex;}
+.flex-direction-row{flex-direction: row;}
+.flex-direction-column{flex-direction: column;}
+.flex-wrap{flex-wrap: wrap;}
+
+
+#section-1{
+    position:relative;
+    width: 100%;
+}
