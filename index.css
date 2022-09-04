@@ -53,9 +53,12 @@ body{
     top: 15vh;
     height: 10vh;
     
-
 }
 
+/* #section-2 h2{
+    position: relative
+    
+} */
 #section-2{
     position: absolute;
     top: 25vh;
@@ -127,7 +130,7 @@ body{
     height: 400px;
 }
 
-.popular-products h2{
+.popular-products,.recommended-products h2{
     font-family: var(--primary-font-family);
     font-size: 32pt;
     padding: 10px;
