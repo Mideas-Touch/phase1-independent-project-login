@@ -16,6 +16,16 @@
     letter-spacing: .05rem;
     font-size: 2em;
 }
+.row{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
 
 body{
     background-color: #efe6d5;
@@ -123,7 +133,7 @@ body{
 
 
 /*  DISPLAY PROPERTIES*/
-
+.d-grid{display: grid;}
 .d-flex{display: flex;}
 .flex-direction-row{flex-direction: row;}
 .flex-direction-column{flex-direction: column;}
