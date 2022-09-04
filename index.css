@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Vollkorn+SC:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Vollkorn+SC:wght@900&display=swap');
 
 :root{
     font-size: 0.8vw;
     font-family: 'Poppins', sans-serif;
     --primary-font-family: 'Poppins', sans-serif;
+    --secondary-font-family: 'Volkorn SC', serif;
     --color-primary:#efe6d5; 
     --color-secondary: #7B3F00;
 }
@@ -16,16 +19,16 @@
 }
 
 #logo{
-    font-family: var(--primary-font-family);
+    font-family: var(--secondary-font-family);
     color:var(--color-secondary);
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: .05rem;
     font-size: 2.5em;
     text-align: left;
 }
 .row{
     display: flex;
-    padding: 2.5rem;
+    padding: 5.5rem;
 }
 
 
@@ -55,7 +58,29 @@ body{
     font-size: 4em;
 }
 
-#section-1 h2{
+#section-1 a{
+    position: relative;
+    top: 3vh;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10em;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+
+#section-1 a.previous, #section-1 a.next{
+    color:#e4a25b;
+}
+
+#section-1 a.previous:hover, #section-1 a.next:hover{
+    color:#b6962e;
+}
+
+
+
+
+#section-1 p{
     position: relative;
     text-align: center;
     top: 15vh;
@@ -92,7 +117,7 @@ body{
 
 #section-3 h3{
     text-align: center;
-    font-family: var(--primary-font-family);
+    font-family: var(--secondary-font-family);
     font-size: 3.5em;
     font-weight: 600;
 }
@@ -156,12 +181,13 @@ body{
 }
 
 .popular-products,.recommended-products h2{
-    font-family: var(--primary-font-family);
-    color: #7B3F00;
+    font-family: var(--secondary-font-family);
+    color: #b6962e;
     font-size: 2.5rem;
     text-align: left;
     font-weight: 800;
 }
+
 
 .card h4{
     font-family: var(--primary-font-family);
@@ -254,6 +280,9 @@ footer p{
 #genres a{
     font-weight: 500;
     color: #aba190;
+}
+.browse-genre h3{
+    color:#b6962e;
 }
 
 /* #section-2{
