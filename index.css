@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
 :root{
     font-size: 0.8vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --primary-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    --primary-font-family: 'Poppins', sans-serif;
     --color-primary:#efe6d5; 
     --color-secondary: #7B3F00;
 }
@@ -14,12 +17,15 @@
 
 #logo{
     font-family: var(--primary-font-family);
+    color:var(--color-secondary);
     font-weight: 600;
     letter-spacing: .05rem;
-    font-size: 2em;
+    font-size: 2.5em;
+    text-align: left;
 }
 .row{
     display: flex;
+    padding: 2.5rem;
 }
 
 
@@ -68,12 +74,13 @@ body{
     position: relative
     
 } */
-#section-2{
-    position: absolute;
-    top: 25vh;
-    left: 10vw;
-    width: 80%;
 
+#section-2{
+    position:relative;
+    width: 100%;
+    top: 25vh;
+    /* left: 10vw; */
+    width: 80%;
 }
 
 #section-3{
@@ -126,10 +133,19 @@ body{
 
 #section-headline h2{
     position:absolute;
+    color:#b6962e;
     top: 3.5em;
     left: 20rem;
     text-align: center;
 
+}
+
+#section-headline form > ul{
+    position: absolute;
+    top: 2vh;
+    margin: 0, auto;
+    padding:10px;
+    font-size: 1.2rem;
 }
 
 /* CARD PROPERTIES */
@@ -141,7 +157,7 @@ body{
 
 .popular-products,.recommended-products h2{
     font-family: var(--primary-font-family);
-    color: var(--color-secondary);
+    color: #7B3F00;
     font-size: 2.5rem;
     text-align: left;
     font-weight: 800;
@@ -200,11 +216,6 @@ body{
 
 
 
-#section-2{
-    position:relative;
-    width: 100%;
-}
-
 .underline{
     border-bottom: 3px(--color-secondary);
     padding-bottom: 10px;
@@ -213,8 +224,9 @@ body{
 
 footer{
     display: flex;
+    background-color: #e5c353;
     position: relative;
-    top: 50vh
+    top: 45vh
 }
 
 footer li{
@@ -228,6 +240,7 @@ footer h3{
 }
 
 footer h2{
+    color: #7B3F00;
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: .15rem;
@@ -237,4 +250,13 @@ footer h2{
 footer p{
     font-size: 1.5rem;
 }
+
+#genres a{
+    font-weight: 500;
+    color: #aba190;
+}
+
+/* #section-2{
+    background-color: #e5c353;
+} */
 
