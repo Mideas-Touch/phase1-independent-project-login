@@ -151,12 +151,22 @@ body{
 
 }
 
+/* #genre-form::after{
+    content: "<i class="fa-solid fa-magnifying-glass"></i>";
+} */
+
 .container{
     position: inherit;
     left: 0vw;
     max-width: 90%;
     margin: auto;
 }
+
+/* #btn{
+    font-size: 0.8rem;
+    position: absolute;
+    top: .05rem;
+} */
 
 
 /*  DISPLAY PROPERTIES*/

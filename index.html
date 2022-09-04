@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/602ea35771.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,9 +64,11 @@
         <div class="browse-genre">
             <div class="container d-flex flex-direction-column">
                 <h3>Browse | Genres</h3>
-                <form action="">
-                    <li><input type="text" placeholder="Title/Author/ISBN"></li>
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <form id="genre-form" class="d-flex flex-direction-row" action="">
+                    <ul>
+                        <input type="text" placeholder="Title/Author/ISBN">
+                        <button id="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </ul>
                 </form>
                 <div id="genres" class="d-flex justify-content-center">
                     <div class="row d-flex justify-content-space-between">
