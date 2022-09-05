@@ -1,14 +1,14 @@
 ## Book Quotes
 
-    - Description
-    - Installation Requirement
-    - Technology Used
-    - Getting Started
-    - Prerequisites
-    - Contribution
-    - Code Samples
-    - Licence
-    - Authors Info
+- Description
+- Installation Requirement
+- Technology Used
+- Getting Started
+- Prerequisites
+- Contribution
+- Code Samples
+- Licence
+- Authors Info
 
 ## Description
 
