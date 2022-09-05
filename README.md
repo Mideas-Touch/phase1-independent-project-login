@@ -14,17 +14,17 @@
 
 A web-app where users can view famous books quotes. Users can also add their favorite quotes and comment on books that they love on the platform. Additionally, users can check validity of their books using the ISBN validator to discern whether they have an original copy.
 
-    It gives the user a site where they can view and comment on book quotes.
+    It gives provides a space where they can view and comment on book quotes.
     Users can check for book validity using ISBN.
 
 ## Technology Used
 
 Several technologies have been used in the design and implementation of this website. The technologies are:
 
-    - HTML5
-    - CSS
-    - JavaScript
-    - Figma
+- HTML5
+- CSS
+- JavaScript
+- Figma
 
     (back to top)
 
@@ -35,15 +35,15 @@ Prerequisites
 
 ### NodeJS
 
-    - npm
+- npm
 
-    - npm install npm@latest -g
+- npm install npm@latest -g
 
-    - On windows PowerShell
+- On windows PowerShell
 
-    - nvm install latest
+- nvm install latest
 
-    - HTML and CSS require no installations as they can run on the web browser
+- HTML and CSS require no installations as they can run on the web browser
 
 ## Installation
 
