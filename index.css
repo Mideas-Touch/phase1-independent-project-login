@@ -174,7 +174,8 @@ body{
 
 #section-headline h2{
     position:absolute;
-    color:#b6962e;
+    color:#a18835;
+    font-weight: 600;
     top: 3.5em;
     left: 20rem;
     text-align: center;
@@ -198,7 +199,9 @@ body{
 
 .popular-products,.recommended-products h2{
     font-family: var(--secondary-font-family);
+    font-weight: 600;
     color: #b6962e;
+    text-shadow: 5px #e4a25b;
     font-size: 2.5rem;
     text-align: left;
     font-weight: 800;
