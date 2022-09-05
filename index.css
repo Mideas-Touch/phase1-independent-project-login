@@ -47,6 +47,7 @@ body{
     opacity: 80%;
 }
 
+
 #section-headline li{
     position: relative;
     list-style: none;
@@ -151,6 +152,19 @@ body{
     justify-content: space-around;
     
 }
+
+#login{
+    font-family: var(--primary-font-family);
+    color: var(--color-secondary);
+    font-size: 1.3rem;
+    display: inline-block;
+}
+#login:hover{
+    background-color:#fbf0ca;
+    color: #774815;
+    font-weight: 400;
+}
+
 #section-headline{
     align-content: center;
     height: 35vh;
@@ -244,10 +258,9 @@ body{
 
 
 
-
 .underline{
     border-bottom: 3px(--color-secondary);
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 
