@@ -1,23 +1,56 @@
 {
     "books": [
-    {
+      {
         "id": 1,
-        "image":"jsks",
-        "year" : 2005,
-        "price": 500
-    },
-    {
+        "title": "On the genealogy of Morals",
+        "Author": "Friedrich nietzsche",
+        "ISBN": 9780679724629,
+        "image_url": "assets/images/on-the-genealogy-of-morals-barnes-noble-library-of-essential-reading.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
+      },
+      {
         "id": 2,
-        "image":"jsks",
-        "year" : 2005,
-        "price": 500
-    },
-    {
-        "id": 2,
-        "image":"jsks",
-        "year" : 2005,
-        "price": 500
-    }
-        
-    ]  
-}
+        "title": "A hunger Artist",
+        "Author": "Franz Kafka",
+        "ISBN": 9782070286881,
+        "image_url": "assets/images/a-hunger-artist-21.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
+      },
+      {
+        "id": 3,
+        "title": "The Seducer's Diary",
+        "Author": "Soren Kierkegaard",
+        "ISBN": 9780679724629,
+        "image_url": "assets/images/seducer.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
+      },
+      {
+        "id": 4,
+        "title": "Ulysses",
+        "Author": "James Joyce",
+        "image_url": "assets/images/ulysses-174.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
+      },
+      {
+        "id": 5,
+        "title": "The Trial",
+        "Author":"Franz Kafka",
+        "image_url": "assets/images/the-trial.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
+      },
+      {
+        "id": 6,
+        "title": "The Trial",
+        "Author":"Franz Kafka",
+        "image_url": "assets/images/TheTrialMoviePoster_600.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
+      },
+      {
+        "id": 7,
+        "title": "The Portrait of a Lady",
+        "Author": "Henry James",
+        "image_url": "assets/images/ulysses-174.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
+      }
+    ]
+  }

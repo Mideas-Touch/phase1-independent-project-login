@@ -4,6 +4,7 @@
     font-weight: 400;
 }
 
+
 #logo:hover{
     color: #563512;
     transition: .2s ease-out;
@@ -26,8 +27,16 @@ footer li:hover{
 
 }
 
-#section-1 a.previous:hover, #section-1 a.next:hover{
+#section-1 a.previous:hover{
     color:#b6962e;
+    right: .5rem;
+    transition: 3s ease-out;
+}
+
+ #section-1 a.next:hover{
+    color:#b6962e;
+    left: .5rem;
+    transition: 3s ease-in;
 }
 
 #favorite:hover{
