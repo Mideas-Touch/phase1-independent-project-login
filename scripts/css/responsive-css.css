@@ -1,0 +1,36 @@
+#login:hover{
+    background-color:#fbf0ca;
+    color: #774815;
+    font-weight: 400;
+}
+
+#logo:hover{
+    color: #563512;
+    transition: .2s ease-out;
+}
+
+#genres a:hover{
+    color: #a1937c;
+    font-weight: 700;
+    transition: .2s ease-in;
+
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+.display-quote-text:hover{
+    transition: .7s ease-out;
+    padding: 1rem;
+
+}
+
+#section-1 a.previous:hover, #section-1 a.next:hover{
+    color:#b6962e;
+}
+
+#favorite:hover{
+    background-color: #fadfdb;
+    color: #c4970f;
+}

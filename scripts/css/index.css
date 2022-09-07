@@ -72,14 +72,10 @@ body{
 
 
 #section-1 a.previous, #section-1 a.next{
+    position: relative;
+    top: 9vh;
     color:#e4a25b;
 }
-
-#section-1 a.previous:hover, #section-1 a.next:hover{
-    color:#b6962e;
-}
-
-
 
 
 #section-1 p{
@@ -87,6 +83,7 @@ body{
     text-align: center;
     top: 15vh;
     height: 10vh;
+    font-size: 1.6em;
     
 }
 
@@ -158,11 +155,6 @@ body{
     color: var(--color-secondary);
     font-size: 1.3rem;
     display: inline-block;
-}
-#login:hover{
-    background-color:#fbf0ca;
-    color: #774815;
-    font-weight: 400;
 }
 
 #section-headline{
@@ -317,10 +309,6 @@ footer p{
 
 }
 
-#favorite:hover{
-    background-color: #fadfdb;
-    color: #c4970f;
-}
 
 /* #section-2{
     background-color: #e5c353;
@@ -335,6 +323,9 @@ footer p{
     font-size: 1.5em;
     letter-spacing: 0.8rem;
 }
+/* #socials .i{
+    border: 5px #c4970f;
+} */
 
 #form li,button, input{
     cursor: pointer;
