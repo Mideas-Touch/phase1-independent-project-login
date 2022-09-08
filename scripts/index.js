@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     function renderOneBook(book){
-        let card = document.querySelector('.card')
+        let card = document.getElementsByName('card')
         card.innerHTML = `
         <img src="${book.image_url}>
         <div class="book-name">
