@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', e => {
 
 
     function renderOneBook(book){
-        let card = document.querySelector('.card')
+        let card = document.querySelector('.container card')
         console.log(card)
         card.innerHTML = `
         <img src="${book.image_url}>
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', e => {
         </div>
         <p class="">${book.description}</p>
         `
-        document.querySelector('.card').append(card)
+        document.querySelector('.container').append(card)
 
         console.log(card)
     }
