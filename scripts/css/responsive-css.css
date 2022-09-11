@@ -27,13 +27,13 @@ footer li:hover{
 
 }
 
-#section-1 a.previous:hover{
+#section-1 a.previous-btn:hover{
     color:#b6962e;
     right: .5rem;
     transition: 3s ease-out;
 }
 
- #section-1 a.next:hover{
+ #section-1 a.next-btn:hover{
     color:#b6962e;
     left: .5rem;
     transition: 3s ease-in;

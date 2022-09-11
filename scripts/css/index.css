@@ -71,7 +71,7 @@ body{
 }
 
 
-#section-1 a.previous, #section-1 a.next{
+#section-1 a.previous-btn, #section-1 a.next-btn{
     position: relative;
     top: 9vh;
     color:#e4a25b;

@@ -5,7 +5,7 @@
         "title": "On the genealogy of Morals",
         "Author": "Friedrich nietzsche",
         "ISBN": 9780679724629,
-        "image_url": "assets/images/on-the-genealogy-of-morals-barnes-noble-library-of-essential-reading.jpg",
+        "image_url": "assets/images/thus-spoke-zarathustra-barnes-noble-signature-editions.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
       },
       {
@@ -13,7 +13,7 @@
         "title": "A hunger Artist",
         "Author": "Franz Kafka",
         "ISBN": 9782070286881,
-        "image_url": "assets/images/a-hunger-artist-21.jpg",
+        "image_url": "https://ibb.co/2sK6QFw",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
       },
       {
@@ -21,7 +21,7 @@
         "title": "The Seducer's Diary",
         "Author": "Soren Kierkegaard",
         "ISBN": 9780679724629,
-        "image_url": "assets/images/seducer.jpg",
+        "image_url": "https://ibb.co/Rz3DRNb",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
       },
       {
@@ -36,7 +36,7 @@
         "id": 5,
         "title": "The Trial",
         "Author":"Franz Kafka","ISBN":9780199238552,
-        "image_url": "assets/images/the-trial.jpg",
+        "image_url": "https://ibb.co/J2nvtKd",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
       },
       {
@@ -44,7 +44,7 @@
         "title": "The Trial",
         "Author":"Franz Kafka",
         "ISBN":9780199238552,
-        "image_url": "assets/images/TheTrialMoviePoster_600.jpg",
+        "image_url": "https://ibb.co/9ZHgydv",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
       },
       {
@@ -52,7 +52,7 @@
         "title": "The Portrait of a Lady",
         "Author": "Henry James",
         "ISBN": 9780199238553,
-        "image_url": "assets/images/the-portrait-of-a-lady-1.jpg",
+        "image_url": "https://ibb.co/7nYqGNr",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ut iste aut est minima?"
       }
     ]
